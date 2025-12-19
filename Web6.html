@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS</title>
+    <style>
+        fieldset
+        {
+            padding: 20px;
+            margin: 100px auto 100px auto;
+            border-radius: 10px;
+        }
+        body
+        {
+            background-image: url(sa.jpg);
+            background-size: cover;
+        }
+        input
+        {
+            background-color: wheat;
+        }
+        legend
+        {
+            font-size: x-large;
+            text-align: center;
+            font-weight: bold;
+            color: white;
+        }
+        label
+        {
+            font-size: larger;
+            font-style: italic;
+        }
+        button
+        {
+            font-size: large;
+            font-weight: bold;
+            background-color: blue;
+        }
+        fieldset:hover
+        {
+            box-shadow: 5px 5px 5px 5px limegreen, -5px -5px 5px 5px limegreen;
+        }
+        legend:hover
+        {
+            color: yellow;
+        }
+        button:hover
+        {
+            background-color: green;
+            color: white;
+        }
+        label:hover
+        {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+
+    <form>
+        <fieldset>
+            <!-- Sign In Page -->
+            <legend>Sign In</legend>
+            <label>Email:</label>
+            <input type="email" placeholder="Enter Your Email" required><br><br>
+            <label>Password:</label>
+            <input type="password" placeholder="Enter Your Password" required><br><br>
+            <button type="submit">Sign In</button>
+        </fieldset>
+    </form>
+</body>
+</html>
